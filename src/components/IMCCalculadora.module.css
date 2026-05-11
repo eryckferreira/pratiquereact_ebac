@@ -1,0 +1,184 @@
+/* Container principal */
+.container {
+  max-width: 520px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* Cabeçalho */
+.header {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.header h1 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #1a202c;
+}
+
+.header p {
+  font-size: 0.9rem;
+  color: #718096;
+  margin-top: 4px;
+}
+
+/* Card */
+.card {
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+  padding: 1.75rem 1.5rem;
+}
+
+/* Campos do formulário */
+.campo {
+  margin-bottom: 1.25rem;
+}
+
+.campo label {
+  display: block;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: #4a5568;
+  margin-bottom: 6px;
+}
+
+.campo input {
+  width: 100%;
+  padding: 10px 14px;
+  border: 1.5px solid #e2e8f0;
+  border-radius: 10px;
+  font-size: 1rem;
+  color: #1a202c;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.campo input:focus {
+  border-color: #1D9E75;
+}
+
+/* Mensagem de erro */
+.erro {
+  color: #e53e3e;
+  font-size: 0.85rem;
+  margin-bottom: 0.75rem;
+  text-align: center;
+}
+
+/* Botões */
+.botaoPrimario {
+  width: 100%;
+  padding: 12px;
+  background-color: #1D9E75;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.1s;
+  margin-top: 0.25rem;
+}
+
+.botaoPrimario:hover {
+  background-color: #178f68;
+}
+
+.botaoPrimario:active {
+  transform: scale(0.98);
+}
+
+.botaoSecundario {
+  width: 100%;
+  padding: 10px;
+  background-color: transparent;
+  color: #718096;
+  font-size: 0.9rem;
+  border: 1.5px solid #e2e8f0;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 1.25rem;
+  transition: background-color 0.2s;
+}
+
+.botaoSecundario:hover {
+  background-color: #f7fafc;
+}
+
+/* Resultado */
+.resultado {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  margin-bottom: 0.5rem;
+}
+
+.imcValor {
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.imcSubtitulo {
+  font-size: 0.85rem;
+  color: #718096;
+}
+
+.imcClasse {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-top: 6px;
+}
+
+/* Seção da tabela */
+.tabelaSecao {
+  margin-top: 1.25rem;
+}
+
+.tabelaTitulo {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #718096;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 8px;
+}
+
+/* Tabela */
+.tabela {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.875rem;
+}
+
+.tabela th {
+  text-align: left;
+  padding: 6px 8px;
+  border-bottom: 1px solid #e2e8f0;
+  color: #718096;
+  font-weight: 500;
+}
+
+.tabela td {
+  padding: 8px;
+  border-bottom: 1px solid #f0f4f8;
+  color: #2d3748;
+}
+
+.linhaAtiva td {
+  background-color: #e6f7f2;
+  color: #1a6b50;
+  font-weight: 600;
+}
+
+/* Bolinha colorida */
+.bolinha {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  vertical-align: middle;
+}
